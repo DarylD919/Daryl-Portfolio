@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nerko+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin:auto;
+}
+
+
+
+/* Home CSS */
+
+.home{
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+
+
+/* About CSS */
+
+.about{
+    display: flex;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.8) 50%
+    ),
+    url("images/walking.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.about .title{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    letter-spacing: 50px;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    z-index: 999;
+}
+
+.about .about-content .sub-title{
+    position: absolute;
+    top: 5%;
+    left: 43%;
+    font-family: 'Nerko one', cursive;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.about .about-content .box-container{
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    align-items: center;
+    border-radius: 50%;
+    /* TWO OPTIONS */
+    background: none;
+    /* background: rgba(83, 83, 83, 0.2); */
+    margin-top: 100px;
+    padding: 50px 50px;
+    height: 500px;
+    width: 1500px;
+}
+
+.about .about-content .box-container p{
+    font-family: 'Nerko one', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 150px;
+}

@@ -5,6 +5,8 @@ Stage 1 Create the home page
 
 Stage 2 Create About, Personal Projects, Contact Me
 
+About me page is complete
+
 Stage 3 Add JavaScript
 
 Created By Daryl Darilag
