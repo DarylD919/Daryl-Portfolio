@@ -15,10 +15,21 @@
 }
 
 
+/* Navbar CSS */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 25px 0;
+    z-index: 999;
+    background: rgba(47, 33, 253, 0.6);
+}
+
 
 /* Home CSS */
 
 .home,
+.about,
 .project{
     display: flex;
     background-size: cover;
@@ -26,12 +37,71 @@
     min-height: 500px;
 }
 
+.home{
+    padding: 100px 0;
+    background: none;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.home .home-content .text{
+    position: relative;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 2rem;
+    font-family: 'Anton', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.home .home-content .text span{
+    color: crimson;
+}
+
+.home .home-content .text-2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    font-family: 'Anton', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.home .home-content .text-2 span{
+    color: crimson;
+}
+
+.home .home-content .text-2::after{
+    content: "";
+    width: 50%;
+    border: solid 2px #000000;
+}
+
+
+.home .home-content a{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3.5rem;
+    margin-top: 100px;
+    color: crimson;
+    transition: color 0.5 ease;
+}
+
+.home .home-content a:hover{
+    transition: color 0.5 ease;
+    color: rgb(0, 0, 0);
+}
 
 
 /* About CSS */
 
 .about{
-    display: flex;
+    position: relative;
+    padding: 100px 0;
     background: linear-gradient(
         135deg,
         rgba(0, 0, 0, 0.9) 0%,
@@ -45,40 +115,49 @@
 }
 
 .about .title{
-    display: flex;
     position: absolute;
-    top: 70%;
-    left: 35%;
-    letter-spacing: 50px;
+    top: 10%;
+    left: 40%;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 30px;
     font-size: 4rem;
     font-weight: 600;
     font-family: 'Anton', sans-serif;
     color: #ffffff;
-    z-index: 999;
+    z-index: 1;
+    /* margin-bottom: 150rem;
+    margin-left: 3rem; */
 }
 
-.about .about-content .sub-title{
-    position: absolute;
-    top: 5%;
-    left: 43%;
+.about .title span{
+    color: crimson;
+}
+
+.about .sub-title{
+    position: relative;
+    justify-content: center;
+    display: flex;
     font-family: 'Nerko one', cursive;
     font-size: 3rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
+}
+
+.about .about-content .sub-title span{
+    color: crimson;
 }
 
 .about .about-content .box-container{
-    position: absolute;
-    top: 80%;
-    left: 12%;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    /* TWO OPTIONS */
     background: none;
-    /* background: rgba(83, 83, 83, 0.2); */
-    margin-top: 100px;
-    padding: 50px 50px;
+    margin: 15px 5px;
+    padding: 25px 50px;
     height: 500px;
-    width: 1500px;
+    width: 900px;
+    z-index: 1;
 }
 
 .about .about-content .box-container p{
@@ -86,7 +165,7 @@
     text-align: center;
     font-size: 2rem;
     color: #fff;
-    margin-top: 150px;
+    margin-top: 45px;
 }
 
 
@@ -94,6 +173,17 @@
 
 .project{
     padding: 100px 0;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.8) 50%
+    ),
+    url("images/walking.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 170vh;
+    min-height: 500px;
+    
 }
 
 .project .title{
@@ -104,41 +194,67 @@
     font-size: 4rem;
     font-weight: 600;
     font-family: 'Anton', sans-serif;
-    color: #000000;
+    color: #ffffff;
     z-index: 999;
 }
-
-.project .project-content .sub-title{
+.project .sub-title{
     position: relative;
     justify-content: center;
     display: flex;
     letter-spacing: 1rem;
     font-family: 'Nerko one', cursive;
     font-size: 2.5rem;
-    color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
 }
-.project .project-content .sub-title span{
+.project .sub-title span{
     color: crimson;
 }
 
-.project .project-content .project-title{
+.project .project-content .box-container{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px;
+    padding: 30px 50px;
+    background: rgb(99, 99, 99, 0.5);
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+}
+.project .project-content .box-container img{
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin:0 auto;
+}
+
+.project .project-content .box-container .project-title{
     position: relative;
     justify-content: center;
     display: flex;
+    text-align: center;
+    align-items: center;
     letter-spacing: 1rem;
     font-family: 'Nerko one', cursive;
-    font-size: 2.5rem;
-    color: rgb(0, 0, 0);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
 }
 
-.project .project-content .project-title span{
+.project .project-content .box-container .project-title span{
     color: crimson;
 }
 
 .project .project-content .box-container p{
     font-family: 'Nerko one', cursive;
     text-align: center;
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    margin-top: 150px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
 }

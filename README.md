@@ -3,6 +3,8 @@ My portfolio design
 
 Stage 1 Create the home page
 
+Home page still needs to be completed
+
 Stage 2 Create About, Personal Projects, Contact Me
 
 About me page is complete
