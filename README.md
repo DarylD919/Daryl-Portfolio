@@ -3,7 +3,7 @@ My portfolio design
 
 Stage 1 Create the home page
 
-NavBar is not implemented
+Sidebar was chosen for the navigation
 
 Home page still needs to be completed
 

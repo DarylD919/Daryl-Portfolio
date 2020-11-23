@@ -17,12 +17,68 @@
 
 /* Navbar CSS */
 
-.navbar{
+.sidebar{
     position: fixed;
-    width: 100%;
-    padding: 25px 0;
+    right: 0;
+    height: 100%;
+    width: 250px;
     z-index: 999;
-    background: rgba(47, 33, 253, 0.6);
+    background: rgba(87, 87, 87, 0.486);
+}
+
+.sidebar .menu{
+    display: row;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: auto;
+    background: none;
+    border-radius: 6px;
+
+}
+
+.sidebar .menu h3{
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    background: none;
+    user-select: none;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.sidebar .logo a{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sidebar .logo span{
+    color: rgba(220, 20, 60, 0.692);
+}
+
+.sidebar .menu li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    background: #000000ce;
+    border-top: 1px solid rgba(0, 0, 0, 0.425);
+    border-bottom: 0.5px solid #000000;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.sidebar .menu li a:hover{
+    background-color: rgb(255, 0, 51);
 }
 
 
@@ -84,15 +140,17 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    display: flex;
-    font-size: 3.5rem;
-    margin-top: 100px;
+    display: inline-flex;
+    font-size: 3rem;
     color: crimson;
     transition: color 0.5 ease;
+    margin-top: 10rem;
+    margin-left: 22rem;
+    width: 50px;
+    transition: all 0.2 ease;
 }
 
 .home .home-content a:hover{
-    transition: color 0.5 ease;
     color: rgb(0, 0, 0);
 }
 
