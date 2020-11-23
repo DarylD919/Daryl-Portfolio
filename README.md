@@ -16,6 +16,8 @@ About me page is complete
 
 Personal project needs to be completed
 
+contact me page is created needs adjusting
+
 Stage 3 Add JavaScript
 
 Created By Daryl Darilag
