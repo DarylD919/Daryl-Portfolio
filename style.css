@@ -15,15 +15,23 @@
 }
 
 
+
+
+
 /* Navbar CSS */
 
 .sidebar{
     position: fixed;
-    right: 0;
+    right: -250px;
     height: 100%;
     width: 250px;
     z-index: 999;
     background: rgba(87, 87, 87, 0.486);
+    transition: right 0.4s ease;
+}
+
+.sidebar.show{
+    right: 0px;
 }
 
 .sidebar .menu{
@@ -43,18 +51,20 @@
     font-family: 'Anton', sans-serif;
     font-weight: 100;
     font-size: 30px;
+    letter-spacing: 3px;
     text-align: center;
     background: none;
     user-select: none;
     margin-top: 50px;
+    margin-bottom: 40px;
     color: #fff;
 }
 
-.sidebar .logo a{
+.sidebar .logo{
     font-family: 'Anton', sans-serif;
     font-size: 3rem;
     color: #ffffff;
-    text-align: center;
+    user-select: none;
 }
 
 .sidebar .logo span{
@@ -70,18 +80,45 @@
     margin-top: 10px;
     color: rgb(255, 255, 255);
     box-sizing: border-box;
-    background: #000000ce;
-    border-top: 1px solid rgba(0, 0, 0, 0.425);
-    border-bottom: 0.5px solid #000000;
+    background: none;
     border-radius: 6px;
     transition: all 0.2s ease;
 }
 
 .sidebar .menu li a:hover{
-    background-color: rgb(255, 0, 51);
+    background-color: rgba(255, 0, 51, 0.61);
+    border-left: 2px solid #000000;
 }
 
 
+/* sidebar menu btn CSS */
+
+.menu-btn{
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    width: 50px;
+    background: #9797978a;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 999;
+    transition: right 0.4s ease;
+}
+
+.menu-btn.click{
+    right: 265px;
+}
+
+.menu-btn span{
+    color: crimson;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+.menu-btn.click span:before{
+    content: '\f00d';
+}
 /* Home CSS */
 
 .home,
@@ -117,12 +154,17 @@
 }
 
 .home .home-content .text-2{
+    position: relative;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 600;
-    letter-spacing: 1rem;
     font-family: 'Anton', sans-serif;
+    width: 33%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
     color: rgb(0, 0, 0);
+    margin-left: 15rem;
 }
 
 .home .home-content .text-2 span{
@@ -131,8 +173,14 @@
 
 .home .home-content .text-2::after{
     content: "";
-    width: 50%;
-    border: solid 2px #000000;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    width: 24rem;
+    height: 3px;
+    transform: translateX(-50%);
+    background: #000000;
+    z-index: -5;
 }
 
 

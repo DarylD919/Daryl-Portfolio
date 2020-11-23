@@ -4,6 +4,9 @@ My portfolio design
 Stage 1 Create the home page
 
 Sidebar was chosen for the navigation
+sidebar completed
+
+Fixed certain lines
 
 Home page still needs to be completed
 
