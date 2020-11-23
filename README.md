@@ -18,6 +18,12 @@ Personal project needs to be completed
 
 contact me page is created needs adjusting
 
+
 Stage 3 Add JavaScript
+
+
+Stage 4 Media
+
+changes to the sidebar needs to be implented 
 
 Created By Daryl Darilag

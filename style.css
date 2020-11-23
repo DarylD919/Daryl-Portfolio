@@ -125,7 +125,7 @@
 .home,
 .about,
 .project,
-.contact .contact-content{
+.contact{
     display: flex;
     background-size: cover;
     background-attachment: fixed;
@@ -220,6 +220,13 @@
     min-height: 500px;
 }
 
+.about .about-content{
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
 .about .title{
     position: absolute;
     top: 10%;
@@ -254,7 +261,7 @@
 }
 
 .about .about-content .box-container{
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -288,7 +295,7 @@
     background-size: cover;
     background-attachment: fixed;
     height: 170vh;
-    min-height: 500px;
+    min-height: 1000px;
     
 }
 
@@ -371,6 +378,13 @@
 .contact{
     padding: 100px 0;
 }
+
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 .contact .title{
     text-align: center;
     font-size: 5rem;
@@ -417,6 +431,7 @@
 .contact .contact-content .row{
     display: flex;
     height: 65px;
+    align-items: center;
 }
 
 .contact .contact-content .right .text span{
@@ -479,7 +494,7 @@
 .contact .right form .comment textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgray;
+    border: 1px solid rgba(0, 0, 0, 0.363);
     border-radius: 6px;
     outline: none;
     padding: 0 10px;
@@ -502,7 +517,7 @@
     height: 100%;
     font-size: 15px;
     font-weight: 600;
-    border: solid 2px black;
+    border: solid 2px rgb(53, 53, 53);
     color: black;
     background: crimson;
     transition: color 0.2s ease;
@@ -516,3 +531,38 @@
     border: solid 2px crimson;
 }
 
+
+/* Media CSS */
+
+@media (max-width: 690px){
+    .max-width{
+        padding: 0 23px;
+    }
+
+    .about .title{
+        position: center;
+        justify-content: center;
+        display: flex;
+        margin-left: -5rem;
+        font-size: 40px;
+    }
+
+    .about .about-content .box-container{
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        width: 500px;
+    }
+
+    .about .about-content .box-container p{
+        font-size: 30px;
+    }
+
+    .project{
+        height: 250vh;
+    }
+
+    .contact{
+        height: 0;
+    }
+}
