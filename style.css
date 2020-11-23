@@ -18,7 +18,8 @@
 
 /* Home CSS */
 
-.home{
+.home,
+.project{
     display: flex;
     background-size: cover;
     background-attachment: fixed;
@@ -85,5 +86,59 @@
     text-align: center;
     font-size: 2rem;
     color: #fff;
+    margin-top: 150px;
+}
+
+
+/* Project CSS */
+
+.project{
+    padding: 100px 0;
+}
+
+.project .title{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 30px;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    color: #000000;
+    z-index: 999;
+}
+
+.project .project-content .sub-title{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 1rem;
+    font-family: 'Nerko one', cursive;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+.project .project-content .sub-title span{
+    color: crimson;
+}
+
+.project .project-content .project-title{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 1rem;
+    font-family: 'Nerko one', cursive;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.project .project-content .project-title span{
+    color: crimson;
+}
+
+.project .project-content .box-container p{
+    font-family: 'Nerko one', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
     margin-top: 150px;
 }
