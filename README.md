@@ -24,6 +24,8 @@ Stage 3 Add JavaScript
 
 Stage 4 Media
 
+Media has been applied 
+
 changes to the sidebar needs to be implented 
 
 Created By Daryl Darilag

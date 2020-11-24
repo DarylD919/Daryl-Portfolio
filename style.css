@@ -534,9 +534,30 @@
 
 /* Media CSS */
 
+@media (max-width:1100px){
+    .project{
+        height: 250vh;
+    }
+}
+
+@media(max-width:990px){
+    .about .title{
+        margin-left: -6rem;
+    }
+}
+
+
 @media (max-width: 690px){
     .max-width{
         padding: 0 23px;
+    }
+
+    .home .home-content a{
+        margin-left: 17rem;
+    }
+
+    .home .home-content .text-2{
+        margin-left: 12rem;
     }
 
     .about .title{
@@ -565,4 +586,67 @@
     .contact{
         height: 0;
     }
+
+    .contact .contact-content .right{
+        margin-top: -15rem;
+    }
+}
+
+
+@media (max-width: 500px){
+
+    .max-width{
+        padding: 0 25px;
+    }
+
+    .about,
+    .project{
+        width: 63.5vh;
+    }
+
+    .home .home-content .text{
+        font-size: 3rem;
+        margin-left: 5rem;
+    }
+    .home .home-content .text-2{
+        font-size: 1.5rem;
+        margin-left: 11rem;
+    }
+
+    .home .home-content .text-2::after{
+        content: "";
+        position: absolute;
+        top: 35px;
+        left: 50%;
+        width: 12rem;
+        height: 3px;
+        transform: translateX(-50%);
+        background: #000000;
+        z-index: -1;
+    }
+
+    .home .home-content a{
+        margin-left: 14rem;
+    }
+
+    .project .project-content .box-container .project-title{
+        font-size: 20px;
+    }
+
+    .project .project-content .box-container{
+        width: 450px;
+    }
+    
+    .project .project-content .box-container p{
+        font-size: 15px;
+    }
+
+    .contact .title{
+        font-size: 3rem;
+    }
+
+    .contact .contact-content .left .info{
+        font-size: 1.5rem;
+    }
+
 }
