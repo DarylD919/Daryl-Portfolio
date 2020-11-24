@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nerko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
     box-sizing: border-box;
@@ -14,10 +15,6 @@
     padding: 0 20px;
     margin:auto;
 }
-
-
-
-
 
 /* Navbar CSS */
 
@@ -77,6 +74,7 @@
     height: 100%;
     width: 100%;
     line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-top: 10px;
     color: rgb(255, 255, 255);
@@ -84,6 +82,7 @@
     background: none;
     border-radius: 6px;
     transition: all 0.2s ease;
+
 }
 
 .sidebar .menu li a:hover{
@@ -91,6 +90,30 @@
     border-right: 2px solid rgba(82, 82, 82, 0.493);
 }
 
+
+.sidebar .links{
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+} 
+
+.sidebar .links .github a{
+    color: rgb(0, 0, 0);
+} 
+
+.sidebar .links .github a:hover{
+    color: crimson;
+}
+
+.sidebar .links .resume a{
+    color: black;
+}
+
+.sidebar .links .resume a:hover{
+    color: crimson;
+}
 
 /* sidebar menu btn CSS */
 
@@ -532,6 +555,18 @@
 }
 
 
+/* Footer CSS */
+
+footer{
+    background: none;
+}
+
+footer span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
 /* Media CSS */
 
 @media (max-width:1100px){
@@ -647,6 +682,10 @@
 
     .contact .contact-content .left .info{
         font-size: 1.5rem;
+    }
+
+    footer span{
+        margin-top: 22rem;
     }
 
 }

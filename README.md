@@ -22,10 +22,12 @@ contact me page is created needs adjusting
 Stage 3 Add JavaScript
 
 
-Stage 4 Media
+Stage 4 Media resolution
 
 Media has been applied 
 
-changes to the sidebar needs to be implented 
+
+Github and resume icons added at sidebar
+
 
 Created By Daryl Darilag
