@@ -29,5 +29,7 @@ Media has been applied
 
 Github and resume icons added at sidebar
 
+Links have been in placed
+
 
 Created By Daryl Darilag
