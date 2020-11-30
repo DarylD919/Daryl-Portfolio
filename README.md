@@ -29,7 +29,7 @@ Media has been applied
 
 Github and resume icons added at sidebar
 
-Links have been in placed
+Links have been in placed for navigation
 
 
 Created By Daryl Darilag
