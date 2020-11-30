@@ -296,7 +296,7 @@ html{
     margin: 15px 5px;
     padding: 25px 50px;
     height: 500px;
-    width: 900px;
+    width: 1500px;
     z-index: 1;
 }
 
@@ -651,10 +651,18 @@ footer span{
         padding: 0 25px;
     }
 
+    .about{
+        height: 100vh;
+    }
+
+    .about .about-content .box-container p{
+        font-size: 25px;
+    }
+
     .about,
     .project{
         width: 63.5vh;
-    }
+    } 
 
     .home .home-content .text{
         font-size: 3rem;
