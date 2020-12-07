@@ -355,13 +355,14 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 15px 5px;
-    padding: 30px 50px;
+    margin: 10px 5px;
+    padding: 30px 25px;
     background: rgb(99, 99, 99, 0.5);
     border-radius: 10px;
     height: 600px;
     width: 600px;
 }
+
 .project .project-content .box-container img{
     height: 60%;
     width: 100%;
