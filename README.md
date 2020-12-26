@@ -18,6 +18,7 @@ Personal project needs to be completed
 
 contact me page is created needs adjusting
 
+Project Pages - incomplete
 
 Stage 3 Add JavaScript
 
@@ -29,7 +30,8 @@ Media has been applied
 
 Github and resume icons added at sidebar
 
-Links have been in placed for navigation
+Links have been in placed for navigation 
+
 
 
 Created By Daryl Darilag
