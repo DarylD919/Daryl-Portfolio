@@ -20,6 +20,12 @@ html{
     margin:auto;
 }
 
+/* Button */
+
+button{
+    cursor: pointer;
+}
+
 /* Navbar CSS */
 
 .sidebar{
