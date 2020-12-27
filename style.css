@@ -596,6 +596,64 @@ footer span{
 }
 
 
+/* pages */
+
+.freespace{
+    background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.8) 50%
+    ),
+    url("images/walking.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 89vh;
+}
+
+.freespace .max-width{
+    max-width: 1800px;
+    margin:auto;
+}
+
+
+.freespace .title{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 30px;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    z-index: 999;
+}
+.freespace .title span{
+    color: crimson;
+}
+
+.freespace .sub-title{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 1rem;
+    font-family: 'Nerko one', cursive;
+    font-size: 2.5rem;
+    color: rgb(252, 252, 252);
+}
+
+.freespace .sub-title span{
+    color: crimson;
+}
+
+.freespace .box-container p{
+    font-family: 'Nerko one', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 45px;
+}
+
+
 /* Media CSS */
 
 @media(max-width: 1263px){
