@@ -18,7 +18,8 @@ Personal project needs to be completed
 
 contact me page is created needs adjusting
 
-Project Pages - incomplete
+Project Pages - completed
+(video for volga - in progress)
 
 Stage 3 Add JavaScript
 

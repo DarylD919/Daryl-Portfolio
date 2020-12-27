@@ -21,9 +21,16 @@ html{
 }
 
 ul{
+    color: #ffffff;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Nerko one', cursive;
     font-size: 1.5rem;
+}
+h5{
     color: #ffffff;
     font-family: 'Nerko one', cursive;
+    font-size: 1.5rem;
 }
 
 /* Button */
@@ -176,7 +183,10 @@ button:hover{
 .about,
 .project,
 .contact,
-.freespace{
+.freespace,
+.rockpaper,
+.volga
+{
     display: flex;
     background-size: cover;
     background-attachment: fixed;
@@ -606,7 +616,7 @@ footer span{
 
 /* pages */
 
-.freespace{
+.pages{
     position: relative;
     padding: 100px 0;
     background: linear-gradient(
@@ -617,13 +627,11 @@ footer span{
     url("images/walking.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 99vh;
+    height: 110vh;
     min-height: 500px;
 }
 
-
-
-.freespace .title{
+.pages .title{
     position: relative;
     justify-content: center;
     display: flex;
@@ -634,11 +642,11 @@ footer span{
     color: #ffffff;
     z-index: 999;
 }
-.freespace .title span{
+.pages .title span{
     color: crimson;
 }
 
-.freespace .sub-title{
+.pages .sub-title{
     position: relative;
     justify-content: center;
     display: flex;
@@ -648,11 +656,11 @@ footer span{
     color: rgb(252, 252, 252);
 }
 
-.freespace .sub-title span{
+.pages .sub-title span{
     color: crimson;
 }
 
-.freespace .box-container p{
+.pages .box-container p{
     font-family: 'Nerko one', cursive;
     text-align: center;
     font-size: 2rem;
@@ -660,12 +668,11 @@ footer span{
     margin-top: 45px;
 }
 
-.freespace video{
-    display: flex;
-    margin-top: 50px;
+.pages video{
+    margin-top: 40px;
 }
 
-.freespace .source-btn button{
+.pages .source-btn button{
     margin-top: 10px;
     font-size: 1.5rem;
 }
