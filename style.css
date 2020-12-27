@@ -20,6 +20,12 @@ html{
     margin:auto;
 }
 
+ul{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-family: 'Nerko one', cursive;
+}
+
 /* Button */
 
 button{
@@ -169,7 +175,8 @@ button:hover{
 .home,
 .about,
 .project,
-.contact{
+.contact,
+.freespace{
     display: flex;
     background-size: cover;
     background-attachment: fixed;
@@ -587,7 +594,8 @@ button:hover{
 /* Footer CSS */
 
 footer{
-    background: none;
+    background: rgba(0, 0, 0, 0.096);
+    color: #000000;
 }
 
 footer span{
@@ -599,6 +607,8 @@ footer span{
 /* pages */
 
 .freespace{
+    position: relative;
+    padding: 100px 0;
     background: linear-gradient(
         135deg,
         rgba(0, 0, 0, 0.9) 0%,
@@ -607,13 +617,10 @@ footer span{
     url("images/walking.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 89vh;
+    height: 99vh;
+    min-height: 500px;
 }
 
-.freespace .max-width{
-    max-width: 1800px;
-    margin:auto;
-}
 
 
 .freespace .title{
@@ -651,6 +658,16 @@ footer span{
     font-size: 2rem;
     color: #fff;
     margin-top: 45px;
+}
+
+.freespace video{
+    display: flex;
+    margin-top: 50px;
+}
+
+.freespace .source-btn button{
+    margin-top: 10px;
+    font-size: 1.5rem;
 }
 
 
