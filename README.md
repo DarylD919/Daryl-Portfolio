@@ -21,10 +21,7 @@ contact me page is created needs adjusting
 Project Pages - completed
 (video for volga - in progress)
 
-Stage 3 Add JavaScript
-
-
-Stage 4 Media resolution
+Stage 3 Media resolution
 
 Media has been applied 
 
