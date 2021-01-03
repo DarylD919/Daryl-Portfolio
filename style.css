@@ -686,6 +686,10 @@ footer span{
     .project{
         height: 250vh;
     }
+
+    .pages{
+        height: 120vh;
+    }
 }
 
 @media(max-width: 1263px){
