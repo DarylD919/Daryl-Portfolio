@@ -289,9 +289,7 @@ button:hover{
 }
 
 .about .title{
-    position: absolute;
-    top: 10%;
-    left: 40%;
+    position: relative;
     justify-content: center;
     display: flex;
     letter-spacing: 30px;
@@ -680,6 +678,16 @@ footer span{
 
 /* Media CSS */
 
+@media(max-width: 1368px){
+    .max-width{
+        padding: 0 10px;
+    }
+
+    .project{
+        height: 250vh;
+    }
+}
+
 @media(max-width: 1263px){
     .about .about-content .box-container{
         width: 1000px;
@@ -736,7 +744,12 @@ footer span{
     }
 }
 
+@media (max-width: 768px){
+    .max-width{
+        padding: 0 -10px;
+    }
 
+}
 
 @media (max-width: 690px){
     .max-width{
@@ -827,7 +840,7 @@ footer span{
 @media (max-width: 500px){
 
     .max-width{
-        padding: 0 25px;
+        padding: 0 5px;
     }
 
     .about{
