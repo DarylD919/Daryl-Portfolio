@@ -1010,27 +1010,69 @@ footer span{
 @media (max-width: 380px){
     .about,
     .project{
-        width: 84vh;
+        width: 66vh;
+    }
+
+    .about{
+        height: 100vh;
     }
 
     .project{
-        height: 360vh;
+        height: 285vh;
     }
+
+    .about .title{
+        font-size: 30px;
+       
+    }
+
+    .about .sub-title{
+        font-size: 25px;
+    }
+    .about .about-content .box-container{
+        width: 100%;
+    }
+
     .about .about-content .box-container p{
         font-size: 20px;
     }
 
+
+    .project .title{
+        font-size: 30px;
+    }
+
+    .project .sub-title{
+        font-size: 25px;
+    }
+
+    .project .project-content .box-container{
+        width: 97%;
+
+    }
+
+    .contact .title{
+        font-size: 30px;
+    }
+
+    .contact .text{
+        font-size: 15px;
+    }
+
+
+
+
     .pages{
         width: 90vh;
-        height: 180vh;
+        height: 190vh;
     }
 
     .pages video{
         margin-left: 1rem;
-        width: 550px;
+        width: 690px;
     }
     .pages .source-btn{
-        margin-left: 13rem;
+        margin-left: 17rem;
     }
     footer span{
         margin-top: 0.1rem;
