@@ -987,11 +987,15 @@ footer span{
     }
 
     .project{
-        height: 400vh;
+        height: 330vh;
     }
     .pages{
         width: 94vh;
         height: 170vh;
+    }
+
+    .project .project-content .box-container{
+        width: 97%;
     }
 
     .pages video{
@@ -1059,9 +1063,6 @@ footer span{
         font-size: 15px;
     }
 
-
-
-
     .pages{
         width: 90vh;
         height: 190vh;
@@ -1073,6 +1074,75 @@ footer span{
     }
     .pages .source-btn{
         margin-left: 17rem;
+    }
+    footer span{
+        margin-top: 0.1rem;
+    }
+}
+
+@media (max-width: 375px){
+    .about,
+    .project{
+        width: 81vh;
+    }
+
+    .about{
+        height: 100vh;
+    }
+
+    .project{
+        height: 350vh;
+    }
+
+    .about .title{
+        font-size: 30px;
+       
+    }
+
+    .about .sub-title{
+        font-size: 25px;
+    }
+    .about .about-content .box-container{
+        width: 100%;
+    }
+
+    .about .about-content .box-container p{
+        font-size: 20px;
+    }
+
+
+    .project .title{
+        font-size: 30px;
+    }
+
+    .project .sub-title{
+        font-size: 25px;
+    }
+
+    .project .project-content .box-container{
+        width: 97%;
+
+    }
+
+    .contact .title{
+        font-size: 30px;
+    }
+
+    .contact .text{
+        font-size: 15px;
+    }
+
+    .pages{
+        width: 90vh;
+        height: 190vh;
+    }
+
+    .pages video{
+        margin-left: 1rem;
+        width: 550px;
+    }
+    .pages .source-btn{
+        margin-left: 14rem;
     }
     footer span{
         margin-top: 0.1rem;
