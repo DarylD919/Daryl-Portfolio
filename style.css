@@ -735,6 +735,16 @@ footer span{
         height: 100%;
         align-items: center;
     }
+    .pages{
+        height: 98vh;
+    }
+    .pages video{
+        margin-left: 2rem;
+        width: 950px;
+    }
+    .pages .source-btn{
+        margin-left: 25rem;
+    }
 }
 
 @media(max-width:990px){
@@ -762,13 +772,39 @@ footer span{
         margin-top: 10px;
         font-size: 30px;
     }
+
+    .pages{
+        width: 75vh;
+    }
+    .pages video{
+        margin-left: 2rem;
+        width: 800px;
+    }
+    .pages .source-btn{
+        margin-left: 16rem;
+    }
 }
 
 @media (max-width: 768px){
-    .max-width{
-        padding: 0 -10px;
+    .about,
+    .project{
+        width: 81vh;
     }
 
+    .project{
+        height: 320vh;
+    }
+
+    .pages{
+        height: 110vh;
+    }
+    .pages video{
+        margin-left: 1rem;
+        width: 720px;
+    }
+    .pages .source-btn{
+        margin-left: 18rem;
+    }
 }
 
 @media (max-width: 690px){
@@ -864,7 +900,7 @@ footer span{
     }
 
     .about{
-        height: 100vh;
+        height: 200vh;
     }
 
     .about .about-content .box-container p{
@@ -953,9 +989,25 @@ footer span{
     .project{
         height: 400vh;
     }
+    .pages{
+        width: 94vh;
+        height: 170vh;
+    }
+
+    .pages video{
+        margin-left: 2rem;
+        width: 600px;
+    }
+    .pages .source-btn{
+        margin-left: 16rem;
+    }
+
+    .footer{
+        margin-top: -22rem;
+    }
 }
 
-@media (max-width: 390px){
+@media (max-width: 380px){
     .about,
     .project{
         width: 84vh;
@@ -966,6 +1018,22 @@ footer span{
     }
     .about .about-content .box-container p{
         font-size: 20px;
+    }
+
+    .pages{
+        width: 90vh;
+        height: 180vh;
+    }
+
+    .pages video{
+        margin-left: 1rem;
+        width: 550px;
+    }
+    .pages .source-btn{
+        margin-left: 13rem;
+    }
+    footer span{
+        margin-top: 0.1rem;
     }
 }
 
